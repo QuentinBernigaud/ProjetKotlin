@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ProjetKotlin</string>
+    <string name="button_text">Click here to see my list</string>
+</resources>
