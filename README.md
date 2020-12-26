@@ -14,17 +14,6 @@ https://github.com/QuentinBernigaud/ProjetKotlin
 
 ### Notions abordées 
 
-* Appels **REST**
-* Écran : **2** activités
-* Liste affichée à l'aide d'une **RecyclerView**
-* Tentative de **Gitflow**
-* Fonctions supplémentaires :  
-  - Mise **en cache** des données
-  - **MVC**
-  - **Design Patterns**
-  - Principes **SOLID**
-  - **Singleton**
-
 
 ### Screenshot 
 
