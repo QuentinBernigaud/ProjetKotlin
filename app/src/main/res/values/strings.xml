@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">ProjetKotlin</string>
     <string name="button_text">Click here to see my list</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="student_at_esiea">Student at ESIEA</string>
+    <string name="application_produced_by_quentin_bernigaud">Application Produced by Quentin Bernigaud</string>
+    <string name="credits">Credits</string>
+    <string name="todo">TODO</string>
 </resources>
