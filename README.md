@@ -14,6 +14,12 @@ https://github.com/QuentinBernigaud/ProjetKotlin
 
 ### Notions abordées 
 
+* MVVM
+* Clean Architecture
+* ViewModel
+* ROOM (BDD)
+* Login Page
+
 
 ### Screenshot 
 
@@ -36,4 +42,4 @@ https://github.com/QuentinBernigaud/ProjetKotlin
 
 ## API
 
-
+API[https://github.com/QuentinBernigaud/ProjetKotlin/blob/features/PokemonList.json]
