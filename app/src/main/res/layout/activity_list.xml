@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListActivity">
+    android:background="#F9E4B7"
+    tools:context=".presentation.list.ListActivity">
 
     <TextView
         android:id="@+id/textView5"
