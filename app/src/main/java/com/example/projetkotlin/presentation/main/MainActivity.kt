@@ -1,10 +1,13 @@
-package com.example.projetkotlin
+package com.example.projetkotlin.presentation.main
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.lifecycle.Observer
+import com.example.projetkotlin.presentation.credits.Credits
+import com.example.projetkotlin.presentation.list.ListActivity
+import com.example.projetkotlin.R
 import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.android.ext.android.inject
 

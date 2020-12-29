@@ -1,9 +1,10 @@
-package com.example.projetkotlin
+package com.example.projetkotlin.presentation.main
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.projetkotlin.domain.usecase.CreateUserUseCase
 
-class MainViewModel : ViewModel() {
+class MainViewModel(val createUserUseCase: CreateUserUseCase) : ViewModel() {
 
     val counter: MutableLiveData<Int> = MutableLiveData()
 
