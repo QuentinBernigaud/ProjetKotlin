@@ -2,9 +2,18 @@ package com.example.projetkotlin.presentation.main
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.example.projetkotlin.domain.entity.User
 import com.example.projetkotlin.domain.usecase.CreateUserUseCase
+import com.example.projetkotlin.domain.usecase.GetUserUseCase
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
-class MainViewModel(val createUserUseCase: CreateUserUseCase) : ViewModel() {
+class MainViewModel(private val createUserUseCase: CreateUserUseCase,
+                    private val getUserUseCase: GetUserUseCase
+) : ViewModel() {
 
     val counter: MutableLiveData<Int> = MutableLiveData()
 
@@ -13,8 +22,14 @@ class MainViewModel(val createUserUseCase: CreateUserUseCase) : ViewModel() {
 
     }
 
-    fun onClickedIncrement() {
-        counter.value =  (counter.value ?: 0) + 1
+    fun onClickedIncrement(emailUser: String) {
+        viewModelScope.launch(Dispatchers.IO) {
+            createUserUseCase.invoke(User("test"))
+            val user = getUserUseCase.invoke("test")
+            val debug = "debug"
+
+        }
+
     }
 
 }

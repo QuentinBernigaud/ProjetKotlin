@@ -12,7 +12,7 @@ class PokemonApplication : Application() {
             // Android context
             androidContext(this@PokemonApplication)
             // modules
-            modules(presentationModule)
+            modules(presentationModule, domainModule, dataModule)
         }
     }
 }
