@@ -26,7 +26,7 @@ class MainViewModel(private val createUserUseCase: CreateUserUseCase,
         viewModelScope.launch(Dispatchers.IO) {
             createUserUseCase.invoke(User("test"))
             val user = getUserUseCase.invoke("test")
-            val debug = "debug"
+
         }
 //test
     }

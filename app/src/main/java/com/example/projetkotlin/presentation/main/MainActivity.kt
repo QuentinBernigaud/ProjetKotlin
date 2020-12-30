@@ -23,11 +23,9 @@ class MainActivity : AppCompatActivity() {
           mainViewModel.onClickedIncrement("")
       }
 
-     mainViewModel.counter.observe(this, Observer {
-        value -> main_text.text = value.toString()
-     })
 
-        val button = findViewById<Button>(R.id.button)
+
+        val button = findViewById<Button>(R.id.main_button)
         button.setOnClickListener {
             val intent = Intent(this, ListActivity::class.java)
             startActivity(intent)
