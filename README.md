@@ -18,9 +18,9 @@ https://github.com/QuentinBernigaud/ProjetKotlin
 * **Clean Architecture**
 * **ViewModel**
 * **ROOM** (BDD)
-* **Recycler View**
-- Affichage d'une liste
-- Design de la liste
+* **Recycler View** :
+  - Affichage d'une liste
+  - Design de la liste
 * Login Page
 
 ### Screenshot 
@@ -31,13 +31,16 @@ https://github.com/QuentinBernigaud/ProjetKotlin
 <img src="images/Main.png" width="250">
 
 <img src="images/MainLog.png" width="250">
+
 mot de passe caché 
 
 <img src="images/MainLogMdp.png" width="250">
+
 mot de passe affiché une fois cliqué sur l'oeil
 
 
 <img src="images/Liste.png" width="250">
+
 Écran où j'affiche ma liste via une RecyclerView
 
 
