@@ -25,27 +25,34 @@ https://github.com/QuentinBernigaud/ProjetKotlin
 
 ### Screenshot 
 
-***Liste des éléments à afficher***  
-
 Écran de démarage de l'application
+---
 <img src="images/Main.png" width="250">
 
-<img src="images/MainLog.png" width="250">
+
 
 mot de passe caché 
+---
+<img src="images/MainLog.png" width="250">
 
-<img src="images/MainLogMdp.png" width="250">
+
 
 mot de passe affiché une fois cliqué sur l'oeil
+---
+<img src="images/MainLogMdp.png" width="250">
 
 
-<img src="images/Liste.png" width="250">
 
 Écran où j'affiche ma liste via une RecyclerView
+---
+<img src="images/Liste.png" width="250">
 
 
-<img src="images/Credits.png" width="250">
+
 Écran des crédits, basique
+---
+<img src="images/Credits.png" width="250">
+
 
 
 
